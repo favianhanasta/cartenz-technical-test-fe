@@ -79,7 +79,7 @@ function Home() {
                     <Input placeholder='Search Headphone' style={{ height: '45px', borderRadius: '10px' }} prefix={<FiSearch style={{ fontSize: '20px', marginRight: '16px' }} className='text-muted' />} />
                 </Space>
             </div>
-            <div style={{ borderRadius: '35px', height: '80vh', backgroundColor: '#F6F6F6' }}>
+            <div style={{ borderRadius: '35px', height: '100vh', backgroundColor: '#F6F6F6' }}>
                 <div className='div-content d-flex justify-content-evenly' style={{ paddingTop: '32px' }}>
                     {printCategory()}
                 </div>

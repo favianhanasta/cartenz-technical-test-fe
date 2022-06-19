@@ -65,8 +65,8 @@ function Product(props) {
                         <div className='d-flex justify-content-center' style={{ width: '125px', height: '125px' }}>
                             <img src={value.image} style={{ maxWidth: '100%' }} />
                         </div>
-                        <div style={{ marginTop: '16px' }}>
-                            <p style={{ fontSize: '14px' }}>{value.name}</p>
+                        <div style={{ marginTop: '16px',paddingLeft:'16px' }}>
+                            <p style={{ fontSize: '14px'}}>{value.name}</p>
                             <p style={{ fontSize: '12px', fontWeight: '700', marginTop: '-1rem' }}>USD {value.price}</p>
                         </div>
                         <div className='d-flex justify-content-around' style={{ fontSize: '10px' }}>
