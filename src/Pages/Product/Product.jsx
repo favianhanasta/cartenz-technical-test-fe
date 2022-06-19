@@ -45,7 +45,7 @@ function Product(props) {
         return menu.map((value, index) => {
             if (index == 0) {
                 return (
-                    <Button icon={<FiSliders className='mx-2' />} style={{ height: '41px', width: '100px', borderRadius: '10px' }}>
+                    <Button icon={<FiSliders className='mx-2' />} style={{ height: '41px', width: '100px', borderRadius: '10px' }} key={index}>
                         {value}
                     </Button>
                 )
